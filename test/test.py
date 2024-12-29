@@ -1,8 +1,6 @@
 # Şekil çizme uygulaması
 
-def ucgen_ciz(boyut):
-    for i in range(1, boyut + 1):
-        print(" " * (boyut - i) + "*" * (2 * i - 1))
+
 
 
 def kare_ciz(boyut):
