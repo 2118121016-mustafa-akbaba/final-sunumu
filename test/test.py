@@ -8,11 +8,7 @@ def kare_ciz(boyut):
         print("* " * boyut)
 
 
-def kalp_ciz(boyut):
-    for i in range(boyut // 2, boyut + 1, 2):
-        print(" " * ((boyut - i) // 2) + "*" * i + " " * (boyut - i) + "*" * i)
-    for i in range(boyut, 0, -1):
-        print(" " * (boyut - i) + "*" * (2 * i - 1))
+
 
 
 def menu():
